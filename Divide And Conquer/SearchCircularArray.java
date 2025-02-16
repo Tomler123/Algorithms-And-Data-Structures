@@ -1,5 +1,5 @@
 /**
-Search an element in a circularly sorted array
+3. Search an element in a circularly sorted array
 
 Given a circularly sorted integer array, search an
 element in it. Assume there are no duplicates in
@@ -14,7 +14,8 @@ nums = [8, 9, 10, 2, 5, 6]
 target = 10
 
 Output: Element found at index 2
- */
+
+*/
 public class SearchCircularArray {
     public static int searchCircularArray(int[] nums, int target){
         int left = 0;

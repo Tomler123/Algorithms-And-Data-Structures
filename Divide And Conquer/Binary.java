@@ -1,5 +1,5 @@
 /**
-Binary Search Algorithm – Iterative and Recursive Implementation
+1. Binary Search Algorithm – Iterative and Recursive Implementation
 
 Given a sorted array of n integers and a target value, determine if the target exists in the array 
 in logarithmic time using the binary search algorithm. If target exists in the array, print the index of it.
@@ -20,7 +20,7 @@ The time complexity of the binary search algorithm is O(log2n),
 which is very efficient. The auxiliary space required by the program is O(1)
 for iterative implementation and O(log2n) for recursive implementation due to call stack.
 
- */
+*/
 public class Binary{
     // Iterative Implementation
     public static int binarySearchIterative(int[] nums, int target)

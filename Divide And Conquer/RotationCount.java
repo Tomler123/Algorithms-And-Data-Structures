@@ -1,5 +1,5 @@
 /**
-Find the number of rotations in a circularly sorted array
+2. Find the number of rotations in a circularly sorted array
 
 Given a circularly sorted integer array, find the total number
 of times the array is rotated. Assume there are no duplicates in
