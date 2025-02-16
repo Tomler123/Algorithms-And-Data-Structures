@@ -18,6 +18,11 @@ The idea is to use Divide and Conquer technique to find the maximum subarray sum
 4. Find the maximum subarray sum that crosses the middle element.
 5. Return the maximum of the above three sums.
 
+
+The time complexity of the below divide-and-conquer solution is O(n.log(n)) as
+for the given array of size n, we make two recursive calls on input size n/2
+and finding the maximum subarray crosses midpoint takes O(n) time in the worst case.
+
 */
 public class MaximumSum {
     public static int findMaximumSum(int[] nums, int left, int right){
