@@ -28,6 +28,9 @@ which consists of two parts:
     1. Merge
     2. Merge Sort
 
+The worst-case time complexity of merge sort is O(n.log(n)),
+where n is the size of the input.
+
 */
 
 public class MergeSort {
